@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Verdana, Geneva, sans-serif;
+}
+.firstImage {
+	height: 400px;
+	background: #3a2820 url(../image/desert.jpg) center left no-repeat;
+	background-size: cover;
+	box-sizing: border-box;
+	overflow: auto;
+}
+.secondImage {
+	height: 400px;
+	background: #3a2820 url(../image/3.jpg) center left no-repeat;
+	background-size: cover;
+	box-sizing: border-box;
+	overflow: auto;
+}
+
+h1{
+	margin: 30px;
+	text-align: center;
+}
+.button {
+	text-align: center;
+}
+a {
+	background-color: #48D1CC;
+	padding: 20px 40px;
+	text-decoration: none;
+	border-radius: 20px;
+}
+a:hover {
+	background-color: black;
+}
